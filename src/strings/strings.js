@@ -1,5 +1,7 @@
+import * as _ from 'lodash';
+
 export default (string, modifier = 'ko') => {
-  if(typeof string !== 'string') {
+  if(!_.isString(string)) {
     throw new Error('Unexpected parameter');
   }
   const reversedString = string.split('').reverse().join('');
