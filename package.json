@@ -19,7 +19,11 @@
     "type": "git",
     "url": "git+https://github.com/yaroslav-kharchenko/jsmp-infra-hometask.git"
   },
-  "author": "yaroslav-kharchenko",
+  "author": {
+    "name": "yaroslav-kharchenko",
+    "email": "yaroslav.kharchenko.95@gmail.com",
+    "url": "https://github.com/yaroslav-kharchenko"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yaroslav-kharchenko/jsmp-infra-hometask/issues"
