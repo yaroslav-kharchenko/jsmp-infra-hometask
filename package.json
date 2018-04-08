@@ -1,5 +1,5 @@
 {
-  "name": "jsmp-infra-es6-strings-arrays-reverser",
+  "name": "@username/jsmp-infra-es6-strings-arrays-reverser",
   "version": "0.1.0",
   "description": "This is a test npm package used for training purposes",
   "keywords": [
@@ -19,11 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/yaroslav-kharchenko/jsmp-infra-hometask.git"
   },
-  "author": {
-    "name": "yaroslav-kharchenko",
-    "email": "yaroslav.kharchenko.95@gmail.com",
-    "url": "https://github.com/yaroslav-kharchenko"
-  },
+  "author": "yaroslav-kharchenko <yaroslav.kharchenko.95@gmail.com> (https://github.com/yaroslav-kharchenko)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yaroslav-kharchenko/jsmp-infra-hometask/issues"
@@ -51,5 +47,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "rimraf": "^2.6.2"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
