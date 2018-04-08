@@ -1,0 +1,48 @@
+{
+  "name": "jsmp-infra-es6-strings-arrays-reverser",
+  "version": "0.1.0",
+  "description": "This is a test npm package used for training purposes",
+  "keywords": [
+    "arrays",
+    "strings",
+    "reverser"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "npm run clean && npx babel src --out-dir dist",
+    "clean": "rimraf dist __bundled-tests__",
+    "test": "npx babel tests --out-dir __bundled-tests__ && node ./__bundled-tests__/index.js",
+    "prepublish": "npm run clean && npm run compile && npm test",
+    "dev": "npx babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroslav-kharchenko/jsmp-infra-hometask.git"
+  },
+  "author": "yaroslav-kharchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaroslav-kharchenko/jsmp-infra-hometask/issues"
+  },
+  "homepage": "https://github.com/yaroslav-kharchenko/jsmp-infra-hometask#readme",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "6.4"
+          }
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rimraf": "^2.6.2"
+  }
+}
