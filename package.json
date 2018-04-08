@@ -1,5 +1,5 @@
 {
-  "name": "@username/jsmp-infra-es6-strings-arrays-reverser",
+  "name": "jsmp-infra-es6-strings-arrays-reverser",
   "version": "0.1.0",
   "description": "This is a test npm package used for training purposes",
   "keywords": [
@@ -7,7 +7,7 @@
     "strings",
     "reverser"
   ],
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "compile": "npm run clean && npx babel src --out-dir dist",
     "clean": "rimraf dist __bundled-tests__",
