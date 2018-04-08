@@ -58,4 +58,3 @@ typings/
 .env
 
 __bundled-tests__/
-package-lock.json
